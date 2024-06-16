@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{15E9BF70-180E-4DBB-9DDA-249E90483BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimapApi", "MinimapApi\MinimapApi.csproj", "{CE806F5B-C9A2-478B-ACAA-92CEB81E131C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimapApi.Tests.Integration", "MinimapApi.Tests.Integration\MinimapApi.Tests.Integration.csproj", "{034C4631-3E98-4184-87CF-4D305185AAD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15E9BF70-180E-4DBB-9DDA-249E90483BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E9BF70-180E-4DBB-9DDA-249E90483BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E9BF70-180E-4DBB-9DDA-249E90483BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E9BF70-180E-4DBB-9DDA-249E90483BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE806F5B-C9A2-478B-ACAA-92CEB81E131C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE806F5B-C9A2-478B-ACAA-92CEB81E131C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE806F5B-C9A2-478B-ACAA-92CEB81E131C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE806F5B-C9A2-478B-ACAA-92CEB81E131C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034C4631-3E98-4184-87CF-4D305185AAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034C4631-3E98-4184-87CF-4D305185AAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034C4631-3E98-4184-87CF-4D305185AAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034C4631-3E98-4184-87CF-4D305185AAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
