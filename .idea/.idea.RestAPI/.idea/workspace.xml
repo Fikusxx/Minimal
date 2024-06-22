@@ -10,32 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396529a9-f30f-4587-b834-92055137490b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RestAPI/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Controllers/MyController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Controllers/TokenController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Endpoints/ApiEndpoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Options/ConfigureSwaggerGenOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Options/SwaggerDefaultValues.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimalAPI.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi.Tests.Integration/MinimalApiFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi.Tests.Integration/MinimalApiFixture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi.Tests.Integration/OrdersApi/BaseOrdersApiTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi.Tests.Integration/OrdersApi/GetOrderTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi.Tests.Integration/OrdersApi/PlaceOrderTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/ApiEndpoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/ApiVersioning.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/EndpointsExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/Internal/IEndpoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/Orders/GetOrderEndpoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/Orders/OrderEndpointExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Endpoints/Orders/PlaceOrderEndpoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/IApiMarker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Options/ConfigureSwaggerGenOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Options/SwaggerDefaultValues.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimapApi/Services/MyMinimapServiceXD.cs" afterDir="false" />
-    </list>
+    <list default="true" id="396529a9-f30f-4587-b834-92055137490b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +31,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7bedd7eefb8fde9c9681bea4072a5ab37d822fb58bf5abba4e9c9a72f27/IEndpointConventionBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c62dbcc4ba2718769223d2edcbb462defa1d97c8f2ef066639d41ddd521e/XUnit2TestFramework.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -178,13 +154,33 @@
       <workItem from="1718257378490" duration="1247000" />
       <workItem from="1718345524688" duration="11143000" />
       <workItem from="1718374860830" duration="427000" />
-      <workItem from="1718423518791" duration="24519000" />
+      <workItem from="1718423518791" duration="25737000" />
     </task>
+    <task id="LOCAL-00001" summary="yikes">
+      <option name="closed" value="true" />
+      <created>1718520088792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718520088792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="75" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="75" />
+    <coverage-tree-state>
+      <expand />
+      <select />
+    </coverage-tree-state>
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -198,5 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="yikes" />
+    <option name="LAST_COMMIT_MESSAGE" value="yikes" />
   </component>
 </project>

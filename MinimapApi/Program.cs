@@ -3,12 +3,17 @@ using Asp.Versioning;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using MinimapApi;
 using MinimapApi.Endpoints;
+using MinimapApi.Endpoints.Logging;
 using MinimapApi.Options;
 using MinimapApi.Services;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// builder.AddLogging();
+builder.AddSerilogLogging();
 
 #region JWT
 
@@ -58,7 +63,6 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddSingleton<MyMinimapServiceXD>();
 
-
 var app = builder.Build();
 
 app.CreateApiVersionSet();
@@ -79,5 +83,6 @@ app.UseAuthorization();
 // app.UseCors();
 // app.MapApiEndpoints();
 app.MapEndpoints();
+app.MapLoggingEndpoints();
 
 app.Run();
