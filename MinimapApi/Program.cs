@@ -5,6 +5,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using MinimapApi;
 using MinimapApi.Endpoints;
+using MinimapApi.Endpoints.ErrorOrEndpoints;
 using MinimapApi.Endpoints.Logging;
 using MinimapApi.Options;
 using MinimapApi.Services;
@@ -84,5 +85,6 @@ app.UseAuthorization();
 // app.MapApiEndpoints();
 app.MapEndpoints();
 app.MapLoggingEndpoints();
+app.MapErrorOrEndpoints();
 
 app.Run();

@@ -12,4 +12,11 @@ public static class ApiEndpoints
         public const string GetAll = Base;
         public const string GetById = $"{Base}/{{id:guid}}";
     }
+
+    public static class ErrorOrs
+    {
+        private const string Base = $"{ApiBase}/errorors";
+
+        public const string Test = Base;
+    }
 }

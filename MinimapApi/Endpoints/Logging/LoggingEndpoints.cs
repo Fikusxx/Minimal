@@ -28,8 +28,9 @@ public static class LoggingEndpoints
         app.MapGet("serilog", (
             [FromServices] ILogger<LoggingEndpointLogger> logger) =>
         {
-            using var prop = LogContext.PushProperty("OrderId", orderId);
+            using var _ = LogContext.PushProperty("OrderId", orderId);
             logger.LogWarning("And its done xd");
+            logger.LogWarning("And its done xd #2");
 
             return Results.Ok();
         });

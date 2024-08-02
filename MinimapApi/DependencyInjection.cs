@@ -35,6 +35,6 @@ public static class DependencyInjection
 
         Log.Logger = logger;
         
-        app.Host.UseSerilog();
+        app.Host.UseSerilog(logger);
     }
 }
