@@ -13,7 +13,7 @@ public static class GetOrderEndpoint
         app.MapGet(ApiEndpoints.Orders.GetById, (
                 [FromRoute] Guid id,
                 [FromServices] MyMinimapServiceXD service,
-                HttpContext context,
+        HttpContext context,
                 CancellationToken whynot) =>
             {
                 service.DoWork();

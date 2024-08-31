@@ -15,8 +15,7 @@ public static class ApiEndpoints
 
     public static class ErrorOrs
     {
-        private const string Base = $"{ApiBase}/errorors";
-
-        public const string Test = Base;
+        public const string ErrorOr = $"{ApiBase}/errorors";
+        public const string LangExt = $"{ApiBase}/langext";
     }
 }

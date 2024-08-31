@@ -29,6 +29,8 @@ public static class DependencyInjection
     public static void AddSerilogLogging(this WebApplicationBuilder app)
     {
         var logger = new LoggerConfiguration()
+            .Enrich.FromLogContext()
+            .Enrich.WithMachineName()
             .ReadFrom.Configuration(app.Configuration)
             .Destructure.ByTransforming<MyClass>(x => MyClass.TransformToLog(x))
             .CreateLogger();
